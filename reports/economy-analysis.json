@@ -1,0 +1,493 @@
+{
+  "method": "Single-asset initial purchase held for 60 full cycles: net cash is not reinvested; all monthly integer rounding included. Category returns are capital-weighted. Scenarios use real game engine, deterministic heuristics, not optimal play or win-rate estimates.",
+  "properties": [
+    {
+      "id": "terreno-aurora",
+      "name": "Terreno Aurora",
+      "category": "Terreni",
+      "initialPrice": 12000,
+      "netMonthly": 40,
+      "monthlyYieldPct": 0.3333333333333333,
+      "finalValue60": 13938,
+      "netCash60": 2400,
+      "gain60": 4338,
+      "totalReturn60Pct": 36.15,
+      "cashPaybackMonths": 300
+    },
+    {
+      "id": "campo-lunare",
+      "name": "Campo Lunare",
+      "category": "Terreni",
+      "initialPrice": 15000,
+      "netMonthly": 25,
+      "monthlyYieldPct": 0.16666666666666666,
+      "finalValue60": 17425,
+      "netCash60": 1500,
+      "gain60": 3925,
+      "totalReturn60Pct": 26.166666666666668,
+      "cashPaybackMonths": 600
+    },
+    {
+      "id": "lotto-zenit",
+      "name": "Lotto Zenit",
+      "category": "Terreni",
+      "initialPrice": 21000,
+      "netMonthly": 50,
+      "monthlyYieldPct": 0.23809523809523808,
+      "finalValue60": 24395,
+      "netCash60": 3000,
+      "gain60": 6395,
+      "totalReturn60Pct": 30.452380952380953,
+      "cashPaybackMonths": 420
+    },
+    {
+      "id": "podere-cristallo",
+      "name": "Podere Cristallo",
+      "category": "Terreni",
+      "initialPrice": 28000,
+      "netMonthly": 70,
+      "monthlyYieldPct": 0.25,
+      "finalValue60": 32527,
+      "netCash60": 4200,
+      "gain60": 8727,
+      "totalReturn60Pct": 31.167857142857144,
+      "cashPaybackMonths": 400
+    },
+    {
+      "id": "residenza-solaris",
+      "name": "Residenza Solaris",
+      "category": "Appartamenti",
+      "initialPrice": 22000,
+      "netMonthly": 550,
+      "monthlyYieldPct": 2.5,
+      "finalValue60": 25556,
+      "netCash60": 33000,
+      "gain60": 36556,
+      "totalReturn60Pct": 166.16363636363636,
+      "cashPaybackMonths": 40
+    },
+    {
+      "id": "loft-prisma",
+      "name": "Loft Prisma",
+      "category": "Appartamenti",
+      "initialPrice": 26000,
+      "netMonthly": 620,
+      "monthlyYieldPct": 2.3846153846153846,
+      "finalValue60": 30200,
+      "netCash60": 37200,
+      "gain60": 41400,
+      "totalReturn60Pct": 159.23076923076923,
+      "cashPaybackMonths": 41.935483870967744
+    },
+    {
+      "id": "attico-nuvola",
+      "name": "Attico Nuvola",
+      "category": "Appartamenti",
+      "initialPrice": 34000,
+      "netMonthly": 720,
+      "monthlyYieldPct": 2.1176470588235294,
+      "finalValue60": 39494,
+      "netCash60": 43200,
+      "gain60": 48694,
+      "totalReturn60Pct": 143.21764705882353,
+      "cashPaybackMonths": 47.22222222222222
+    },
+    {
+      "id": "casa-miraggio",
+      "name": "Casa Miraggio",
+      "category": "Appartamenti",
+      "initialPrice": 18000,
+      "netMonthly": 400,
+      "monthlyYieldPct": 2.2222222222222223,
+      "finalValue60": 20907,
+      "netCash60": 24000,
+      "gain60": 26907,
+      "totalReturn60Pct": 149.48333333333332,
+      "cashPaybackMonths": 45
+    },
+    {
+      "id": "bottega-centrale",
+      "name": "Bottega Centrale",
+      "category": "Negozi",
+      "initialPrice": 30000,
+      "netMonthly": 830,
+      "monthlyYieldPct": 2.7666666666666666,
+      "finalValue60": 34847,
+      "netCash60": 49800,
+      "gain60": 54647,
+      "totalReturn60Pct": 182.15666666666667,
+      "cashPaybackMonths": 36.144578313253014
+    },
+    {
+      "id": "emporio-vela",
+      "name": "Emporio Vela",
+      "category": "Negozi",
+      "initialPrice": 24000,
+      "netMonthly": 600,
+      "monthlyYieldPct": 2.5,
+      "finalValue60": 27878,
+      "netCash60": 36000,
+      "gain60": 39878,
+      "totalReturn60Pct": 166.15833333333333,
+      "cashPaybackMonths": 40
+    },
+    {
+      "id": "galleria-orione",
+      "name": "Galleria Orione",
+      "category": "Negozi",
+      "initialPrice": 42000,
+      "netMonthly": 1190,
+      "monthlyYieldPct": 2.8333333333333335,
+      "finalValue60": 48787,
+      "netCash60": 71400,
+      "gain60": 78187,
+      "totalReturn60Pct": 186.15952380952382,
+      "cashPaybackMonths": 35.294117647058826
+    },
+    {
+      "id": "chiosco-riviera",
+      "name": "Chiosco Riviera",
+      "category": "Negozi",
+      "initialPrice": 16000,
+      "netMonthly": 370,
+      "monthlyYieldPct": 2.3125,
+      "finalValue60": 18586,
+      "netCash60": 22200,
+      "gain60": 24786,
+      "totalReturn60Pct": 154.9125,
+      "cashPaybackMonths": 43.24324324324324
+    },
+    {
+      "id": "uffici-zenith",
+      "name": "Uffici Zenith",
+      "category": "Uffici",
+      "initialPrice": 28000,
+      "netMonthly": 760,
+      "monthlyYieldPct": 2.7142857142857144,
+      "finalValue60": 32527,
+      "netCash60": 45600,
+      "gain60": 50127,
+      "totalReturn60Pct": 179.025,
+      "cashPaybackMonths": 36.8421052631579
+    },
+    {
+      "id": "studio-cometa",
+      "name": "Studio Cometa",
+      "category": "Uffici",
+      "initialPrice": 19000,
+      "netMonthly": 500,
+      "monthlyYieldPct": 2.6315789473684212,
+      "finalValue60": 22071,
+      "netCash60": 30000,
+      "gain60": 33071,
+      "totalReturn60Pct": 174.05789473684212,
+      "cashPaybackMonths": 38
+    },
+    {
+      "id": "torre-meridiana",
+      "name": "Torre Meridiana",
+      "category": "Uffici",
+      "initialPrice": 52000,
+      "netMonthly": 1350,
+      "monthlyYieldPct": 2.5961538461538463,
+      "finalValue60": 60405,
+      "netCash60": 81000,
+      "gain60": 89405,
+      "totalReturn60Pct": 171.93269230769232,
+      "cashPaybackMonths": 38.51851851851852
+    },
+    {
+      "id": "hub-eclisse",
+      "name": "Hub Eclisse",
+      "category": "Uffici",
+      "initialPrice": 36000,
+      "netMonthly": 940,
+      "monthlyYieldPct": 2.611111111111111,
+      "finalValue60": 41817,
+      "netCash60": 56400,
+      "gain60": 62217,
+      "totalReturn60Pct": 172.825,
+      "cashPaybackMonths": 38.297872340425535
+    },
+    {
+      "id": "villa-orizzonte",
+      "name": "Villa Orizzonte",
+      "category": "Ville",
+      "initialPrice": 65000,
+      "netMonthly": 990,
+      "monthlyYieldPct": 1.523076923076923,
+      "finalValue60": 75505,
+      "netCash60": 59400,
+      "gain60": 69905,
+      "totalReturn60Pct": 107.54615384615384,
+      "cashPaybackMonths": 65.65656565656566
+    },
+    {
+      "id": "dimora-alba",
+      "name": "Dimora Alba",
+      "category": "Ville",
+      "initialPrice": 72000,
+      "netMonthly": 1050,
+      "monthlyYieldPct": 1.4583333333333333,
+      "finalValue60": 83633,
+      "netCash60": 63000,
+      "gain60": 74633,
+      "totalReturn60Pct": 103.65694444444445,
+      "cashPaybackMonths": 68.57142857142857
+    },
+    {
+      "id": "villa-sirena",
+      "name": "Villa Sirena",
+      "category": "Ville",
+      "initialPrice": 88000,
+      "netMonthly": 1230,
+      "monthlyYieldPct": 1.3977272727272727,
+      "finalValue60": 102224,
+      "netCash60": 73800,
+      "gain60": 88024,
+      "totalReturn60Pct": 100.02727272727273,
+      "cashPaybackMonths": 71.54471544715447
+    },
+    {
+      "id": "casa-giardino",
+      "name": "Casa Giardino",
+      "category": "Ville",
+      "initialPrice": 48000,
+      "netMonthly": 780,
+      "monthlyYieldPct": 1.625,
+      "finalValue60": 55759,
+      "netCash60": 46800,
+      "gain60": 54559,
+      "totalReturn60Pct": 113.66458333333334,
+      "cashPaybackMonths": 61.53846153846154
+    }
+  ],
+  "categories": [
+    {
+      "category": "Terreni",
+      "price": 76000,
+      "net": 185,
+      "weightedMonthlyYieldPct": 0.24342105263157895,
+      "weightedReturn60Pct": 30.769736842105264,
+      "minYieldPct": 0.16666666666666666,
+      "maxYieldPct": 0.3333333333333333
+    },
+    {
+      "category": "Appartamenti",
+      "price": 100000,
+      "net": 2290,
+      "weightedMonthlyYieldPct": 2.29,
+      "weightedReturn60Pct": 153.557,
+      "minYieldPct": 2.1176470588235294,
+      "maxYieldPct": 2.5
+    },
+    {
+      "category": "Negozi",
+      "price": 112000,
+      "net": 2990,
+      "weightedMonthlyYieldPct": 2.669642857142857,
+      "weightedReturn60Pct": 176.3375,
+      "minYieldPct": 2.3125,
+      "maxYieldPct": 2.8333333333333335
+    },
+    {
+      "category": "Uffici",
+      "price": 135000,
+      "net": 3550,
+      "weightedMonthlyYieldPct": 2.6296296296296298,
+      "weightedReturn60Pct": 173.94074074074075,
+      "minYieldPct": 2.5961538461538463,
+      "maxYieldPct": 2.7142857142857144
+    },
+    {
+      "category": "Ville",
+      "price": 273000,
+      "net": 4050,
+      "weightedMonthlyYieldPct": 1.4835164835164836,
+      "weightedReturn60Pct": 105.17252747252748,
+      "minYieldPct": 1.3977272727272727,
+      "maxYieldPct": 1.625
+    }
+  ],
+  "scenarios": [
+    {
+      "strategy": "wait",
+      "winner": "cpu",
+      "player": {
+        "count": 0,
+        "cash": 100000,
+        "value": 0,
+        "income": 0,
+        "costs": 0,
+        "netIncome": 0,
+        "netWorth": 100000
+      },
+      "competitor": {
+        "count": 10,
+        "cash": 46696,
+        "value": 268327,
+        "income": 8920,
+        "costs": 3310,
+        "netIncome": 5610,
+        "netWorth": 315023
+      },
+      "playerPurchases": [],
+      "competitorProperties": [
+        "terreno-aurora",
+        "residenza-solaris",
+        "loft-prisma",
+        "casa-miraggio",
+        "bottega-centrale",
+        "emporio-vela",
+        "chiosco-riviera",
+        "uffici-zenith",
+        "studio-cometa",
+        "hub-eclisse"
+      ]
+    },
+    {
+      "strategy": "net-yield",
+      "winner": "player",
+      "player": {
+        "count": 9,
+        "cash": 28488,
+        "value": 317120,
+        "income": 9430,
+        "costs": 3800,
+        "netIncome": 5630,
+        "netWorth": 345608
+      },
+      "competitor": {
+        "count": 8,
+        "cash": 47835,
+        "value": 229999,
+        "income": 6730,
+        "costs": 2565,
+        "netIncome": 4165,
+        "netWorth": 277834
+      },
+      "playerPurchases": [
+        {
+          "month": 1,
+          "id": "galleria-orione",
+          "price": 42000
+        },
+        {
+          "month": 1,
+          "id": "bottega-centrale",
+          "price": 30000
+        },
+        {
+          "month": 1,
+          "id": "uffici-zenith",
+          "price": 28000
+        },
+        {
+          "month": 6,
+          "id": "terreno-aurora",
+          "price": 12150
+        },
+        {
+          "month": 14,
+          "id": "lotto-zenit",
+          "price": 21694
+        },
+        {
+          "month": 23,
+          "id": "loft-prisma",
+          "price": 27466
+        },
+        {
+          "month": 32,
+          "id": "podere-cristallo",
+          "price": 30253
+        },
+        {
+          "month": 42,
+          "id": "attico-nuvola",
+          "price": 37664
+        },
+        {
+          "month": 56,
+          "id": "torre-meridiana",
+          "price": 59655
+        }
+      ],
+      "competitorProperties": [
+        "campo-lunare",
+        "residenza-solaris",
+        "casa-miraggio",
+        "emporio-vela",
+        "chiosco-riviera",
+        "studio-cometa",
+        "hub-eclisse",
+        "casa-giardino"
+      ]
+    },
+    {
+      "strategy": "terrain-first",
+      "winner": "cpu",
+      "player": {
+        "count": 6,
+        "cash": 15057,
+        "value": 155657,
+        "income": 2540,
+        "costs": 1035,
+        "netIncome": 1505,
+        "netWorth": 170714
+      },
+      "competitor": {
+        "count": 9,
+        "cash": 51341,
+        "value": 282270,
+        "income": 9120,
+        "costs": 3370,
+        "netIncome": 5750,
+        "netWorth": 333611
+      },
+      "playerPurchases": [
+        {
+          "month": 1,
+          "id": "terreno-aurora",
+          "price": 12000
+        },
+        {
+          "month": 1,
+          "id": "podere-cristallo",
+          "price": 28000
+        },
+        {
+          "month": 1,
+          "id": "lotto-zenit",
+          "price": 21000
+        },
+        {
+          "month": 2,
+          "id": "campo-lunare",
+          "price": 15038
+        },
+        {
+          "month": 2,
+          "id": "emporio-vela",
+          "price": 24060
+        },
+        {
+          "month": 51,
+          "id": "attico-nuvola",
+          "price": 38520
+        }
+      ],
+      "competitorProperties": [
+        "residenza-solaris",
+        "loft-prisma",
+        "casa-miraggio",
+        "bottega-centrale",
+        "chiosco-riviera",
+        "uffici-zenith",
+        "studio-cometa",
+        "hub-eclisse",
+        "casa-giardino"
+      ]
+    }
+  ]
+}

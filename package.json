@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8763 --bind 127.0.0.1",
+    "test": "node --test tests/*.test.js",
+    "test:ui": "playwright test",
+    "test:all": "npm test && npm run test:ui",
+    "screenshots": "node tests/capture-screens.mjs",
+    "art": "node scripts/generate-art.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "prettier": "^3.9.6"
+  }
+}

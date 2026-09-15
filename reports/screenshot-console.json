@@ -1,0 +1,22 @@
+{
+  "screenshots": [
+    "reports/after/desktop-onboarding.png",
+    "reports/after/desktop-home.png",
+    "reports/after/desktop-catalog.png",
+    "reports/after/desktop-detail.png",
+    "reports/after/desktop-purchase.png",
+    "reports/after/desktop-owned.png",
+    "reports/after/desktop-portfolio.png",
+    "reports/after/desktop-cpu-activity.png",
+    "reports/after/desktop-new-game.png",
+    "reports/after/mobile-home.png",
+    "reports/after/mobile-catalog.png",
+    "reports/after/mobile-detail.png",
+    "reports/after/mobile-owned.png",
+    "reports/after/mobile-portfolio.png",
+    "reports/after/mobile-final.png",
+    "reports/after/desktop-final.png"
+  ],
+  "pageErrorsAndConsoleErrors": [],
+  "failedRequests": []
+}

@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#123e3c" />
+    <title>Solari Market — La città, il tuo patrimonio</title>
+    <link rel="icon" href="assets/solari-mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Salta al contenuto</a>
+    <header class="site-header">
+      <div class="header-top">
+        <a class="brand" href="#" aria-label="Solari Market, Home"
+          ><img
+            src="assets/solari-mark.svg"
+            alt=""
+            width="42"
+            height="42"
+          /><span>solari<span class="brand-market">MARKET</span></span></a
+        >
+        <nav aria-label="Navigazione principale">
+          <button class="nav-link active" data-view="home" id="nav-home">
+            Home Mercato</button
+          ><button class="nav-link" data-view="owned" id="nav-owned">
+            I miei immobili</button
+          ><button class="nav-link" data-view="portfolio" id="nav-portfolio">
+            Portafoglio
+          </button>
+        </nav>
+        <a
+          class="support-link"
+          href="https://paypal.me/uraroga"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Sostieni il progetto (si apre in una nuova scheda)"
+          title="Sostieni il progetto"
+          ><span class="support-icon" aria-hidden="true">♥</span
+          ><span class="support-label-full">Sostieni il progetto</span
+          ><span class="support-label-short">Sostieni</span></a
+        >
+        <button id="new-game" class="text-button">Nuova partita</button>
+      </div>
+      <div class="hud" aria-label="Stato della partita">
+        <div class="hud-metrics">
+          <div><span>Liquidità</span><strong id="cash-label">0 S</strong></div>
+          <div>
+            <span>Patrimonio netto</span
+            ><strong id="networth-label">0 S</strong>
+          </div>
+          <div>
+            <span>Netto / mese</span><strong id="netmonthly-label">0 S</strong>
+          </div>
+        </div>
+        <div class="turn-control">
+          <span id="month-label">Mese 1 / 60</span
+          ><button id="next-month" class="solar">
+            Mese successivo <span aria-hidden="true">→</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main id="main-content" class="layout" tabindex="-1">
+      <section class="main-panel">
+        <section id="home-view" aria-labelledby="home-title">
+          <div class="page-heading">
+            <div>
+              <span class="eyebrow">La città, il tuo patrimonio</span>
+              <h1 id="home-title" tabindex="-1">
+                Il prossimo indirizzo è tuo.
+              </h1>
+            </div>
+            <span class="edition">SFIDA / 60 MESI</span>
+          </div>
+          <section class="turn-advice">
+            <strong>Il tuo turno</strong>
+            <p id="next-step"></p>
+          </section>
+          <section aria-labelledby="opportunity-title">
+            <div class="section-heading">
+              <h2 id="opportunity-title">Da tenere d’occhio</h2>
+              <span>Disponibili · ordinati per netto / prezzo</span>
+            </div>
+            <div id="opportunities" class="catalog opportunities"></div>
+          </section>
+          <section class="category-section" aria-labelledby="category-title">
+            <div class="section-heading">
+              <h2 id="category-title">Una città, cinque possibilità.</h2>
+            </div>
+            <div id="category-entries" class="category-entries"></div>
+          </section>
+          <section class="catalog-section" aria-labelledby="catalog-title">
+            <div class="section-heading">
+              <h2 id="catalog-title" tabindex="-1">Esplora il mercato</h2>
+              <span id="result-count" aria-live="polite"></span>
+            </div>
+            <div class="filters">
+              <label class="search-label"
+                >Cerca un immobile<input
+                  id="search"
+                  type="search"
+                  placeholder="Nome dell’immobile…" /></label
+              ><label
+                >Categoria<select id="filter-category">
+                  <option value="">Tutte le categorie</option>
+                </select></label
+              ><label
+                >Rischio<select id="filter-risk">
+                  <option value="">Tutti i rischi</option>
+                </select></label
+              ><label
+                >Ordina per<select id="sort-price">
+                  <option value="asc">Prezzo crescente</option>
+                  <option value="desc">Prezzo decrescente</option>
+                </select></label
+              >
+            </div>
+            <div id="catalog" class="catalog"></div>
+          </section>
+        </section>
+        <section id="detail-view" hidden>
+          <div id="detail-content"></div>
+        </section>
+        <section id="owned-view" hidden aria-labelledby="owned-title">
+          <div class="page-heading">
+            <div>
+              <span class="eyebrow">Gestione immobiliare</span>
+              <h1 id="owned-title" tabindex="-1">I miei immobili</h1>
+            </div>
+          </div>
+          <p class="section-intro">
+            Il tuo patrimonio, un indirizzo alla volta.
+          </p>
+          <div id="owned-summary"></div>
+          <div id="owned-list" class="owned-list"></div>
+        </section>
+        <section id="portfolio-view" hidden aria-labelledby="portfolio-title">
+          <div class="page-heading">
+            <div>
+              <span class="eyebrow">Tu e il mercato</span>
+              <h1 id="portfolio-title" tabindex="-1">Portafoglio</h1>
+            </div>
+          </div>
+          <div id="portfolio-content"></div>
+        </section>
+      </section>
+      <aside class="side-panel" aria-label="Avversario e notizie">
+        <section class="cpu-section">
+          <div class="section-heading">
+            <h2>Il tuo avversario</h2>
+            <span class="cpu-dot">Competitor</span>
+          </div>
+          <div id="cpu-panel"></div>
+        </section>
+        <section class="news-section">
+          <div class="section-heading">
+            <h2>Notizie di mercato</h2>
+            <span class="live-dot" aria-hidden="true"></span>
+          </div>
+          <div id="activity-log"></div>
+        </section>
+        <p class="currency-note">
+          S = Solari · valuta di gioco.<br />Nessun denaro reale, solo
+          strategia.
+        </p>
+      </aside>
+    </main>
+    <footer>
+      Solari Market <span id="save-status" role="status"></span
+      ><span>Costruisci con criterio. Cresci nel tempo.</span>
+    </footer>
+    <dialog
+      id="onboarding-modal"
+      class="onboarding-dialog"
+      aria-labelledby="onboarding-title"
+    >
+      <div class="onboarding-card">
+        <img src="assets/solari-mark.svg" alt="" width="64" height="64" /><span
+          class="eyebrow"
+          >Benvenuto a Solari</span
+        >
+        <h2 id="onboarding-title">La città parte da te.</h2>
+        <p>
+          100.000 S, 60 mesi, un avversario. Vince il patrimonio netto più alto:
+          liquidità + valore degli immobili.
+        </p>
+        <p>
+          Scegli un immobile, valuta il netto mensile e conserva una riserva.
+          Massimo 3 acquisti al mese per ciascuno. Con <strong>Mese successivo</strong>
+          incassi, paghi i costi, tutti gli immobili crescono dello 0,25% e il Competitor
+          valuta da 0 a 3 acquisti. Prezzo = valore attuale; rendite e costi sono fissi.
+          A parità di patrimonio è pareggio.
+        </p>
+        <button class="primary" id="onboarding-start">
+          Esplora il mercato →
+        </button>
+      </div>
+    </dialog>
+    <dialog id="purchase-dialog" aria-labelledby="purchase-title"></dialog>
+    <dialog id="reset-dialog" aria-labelledby="reset-title">
+      <span class="eyebrow">Un nuovo inizio</span>
+      <h2 id="reset-title">Iniziare una nuova partita?</h2>
+      <p>
+        La partita e il salvataggio attuali saranno sostituiti. Questa azione
+        non si può annullare.
+      </p>
+      <button id="reset-cancel">Conserva la partita</button
+      ><button id="reset-confirm" class="primary">Sì, ricomincia</button>
+    </dialog>
+    <dialog
+      id="final-screen"
+      class="final-dialog"
+      aria-labelledby="final-title"
+    ></dialog>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "root": "/home/sergio/Progetti/solari-market",
+  "modifiedExisting": [
+    "GAME_DESIGN.md",
+    "README.md",
+    "css/style.css",
+    "index.html",
+    "js/cpu.js",
+    "js/data.js",
+    "js/game.js",
+    "js/market.js",
+    "js/presentation.js",
+    "js/ui.js",
+    "reports/browser-results.json",
+    "scripts/verify-evidence.mjs",
+    "tests/browser/ui.spec.js",
+    "tests/capture-screens.mjs",
+    "tests/game.test.js",
+    "tests/integrity.test.js",
+    "tests/presentation.test.js"
+  ],
+  "created": [
+    "reports/ECONOMY-REVISION.md",
+    "reports/economy-1280-cap.png",
+    "reports/economy-1280-portfolio.png",
+    "reports/economy-390-cap.png",
+    "reports/economy-390-portfolio.png",
+    "reports/economy-analysis.json",
+    "reports/economy-analysis.md",
+    "reports/economy-browser-progress.txt",
+    "reports/economy-changed-files.json",
+    "reports/economy-node-progress.txt",
+    "reports/economy-test-all-progress.txt",
+    "reports/economy-test-output.txt",
+    "reports/economy-verification.json",
+    "reports/initial-properties-baseline.json",
+    "scripts/analyze-economy.mjs",
+    "tests/browser/economy.spec.js",
+    "tests/economy.test.js"
+  ],
+  "transientRunner": [
+    "reports/test-artifacts/.last-run.json"
+  ],
+  "notChanged": [
+    "js/app.js",
+    "package.json",
+    "package-lock.json",
+    "assets/",
+    "INITIAL_PROPERTIES data contents"
+  ],
+  "git": "Not a Git repository; explicit touched-path manifest."
+}

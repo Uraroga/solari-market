@@ -1,0 +1,20 @@
+{
+  "nodePassed": 24,
+  "browserPassed": 19,
+  "totalPassed": 43,
+  "failed": 0,
+  "skipped": 0,
+  "flaky": 0,
+  "designSections": 18,
+  "initialInventoryUnchanged": true,
+  "propertiesAnalyzed": 20,
+  "categoriesAnalyzed": 5,
+  "screenshots": [
+    "reports/economy-1280-cap.png",
+    "reports/economy-1280-portfolio.png",
+    "reports/economy-390-cap.png",
+    "reports/economy-390-portfolio.png"
+  ],
+  "consoleErrors": "Assertions passed in browser economy/UI flows; see test source for per-test coverage.",
+  "scope": "local project only; no publish, remote or live player-save access"
+}

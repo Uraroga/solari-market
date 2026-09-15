@@ -1,0 +1,51 @@
+
+> test:all
+> npm test && npm run test:ui
+
+
+> test
+> node --test tests/*.test.js
+
+✔ nuova partita inizializza 60 mesi, capitali e catalogo (20.072939ms)
+✔ acquisto giocatore aggiorna liquidità, proprietario e patrimonio (0.694875ms)
+✔ passaggio mese accredita rendite, sottrae costi, aggiorna mercato, evento e CPU (2.135303ms)
+✔ CPU compra un immobile conveniente ma rispetta la riserva minima (0.523183ms)
+✔ salvataggio localStorage e caricamento partita salvata (0.590035ms)
+✔ fine al mese 60 dichiara il vincitore (0.595178ms)
+✔ valutazione CPU penalizza rischio alto e valorizza diversificazione (0.300555ms)
+✔ indicatori UI derivano dai dati economici e dalla categoria (0.432876ms)
+✔ economic data, market, CPU and game modules are byte-identical to the pre-redesign baseline (2.802555ms)
+✔ twenty original property SVG files are distinct and have no external dependencies (1.323051ms)
+✔ opportunities rank only available affordable properties by monthly net yield (19.845531ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 126.990324
+
+> test:ui
+> playwright test
+
+
+Running 15 tests using 1 worker
+
+  ✓   1 tests/browser/accessibility.spec.js:5:3 › responsive keyboard flows and WCAG checks at 1280px (5.9s)
+  ✓   2 tests/browser/accessibility.spec.js:5:3 › responsive keyboard flows and WCAG checks at 390px (5.5s)
+  ✓   3 tests/browser/accessibility.spec.js:5:3 › responsive keyboard flows and WCAG checks at 320px (5.1s)
+  ✓   4 tests/browser/accessibility.spec.js:68:1 › mobile primary touch targets are at least 44px high (683ms)
+  ✓   5 tests/browser/accessibility.spec.js:87:1 › old saves without UI flags remain playable and preserve economy (979ms)
+  ✓   6 tests/browser/accessibility.spec.js:111:1 › storage denial is visible without uncaught errors and the session remains playable (1.0s)
+  ✓   7 tests/browser/accessibility.spec.js:137:1 › finished games remain inspectable and accessible on narrow screens (1.8s)
+  ✓   8 tests/browser/accessibility.spec.js:176:1 › all property illustrations load locally and are distinct (681ms)
+  ✓   9 tests/browser/ui.spec.js:14:1 › home is an image-led marketplace with compact HUD, ranked opportunities and category navigation (1.3s)
+  ✓  10 tests/browser/ui.spec.js:60:1 › onboarding is a keyboard modal, persisted, and new game requires explicit confirmation (1.2s)
+  ✓  11 tests/browser/ui.spec.js:90:1 › all 60 monthly turns finish and final restart also requires confirmation (4.8s)
+  ✓  12 tests/browser/ui.spec.js:115:1 › months show recent news first, group older archive and expose actual market events (1.2s)
+  ✓  13 tests/browser/ui.spec.js:154:1 › portfolio compares real totals and growth from initial capital, including reserve guidance (782ms)
+  ✓  14 tests/browser/ui.spec.js:198:1 › estate management uses a five-metric summary and inspectable owned rows (937ms)
+  ✓  15 tests/browser/ui.spec.js:229:1 › detail leads with artwork and economics, purchase announces an exact receipt (1.1s)
+
+  15 passed (34.1s)

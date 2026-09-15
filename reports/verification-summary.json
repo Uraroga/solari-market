@@ -1,0 +1,18 @@
+{
+  "unitPassed": 11,
+  "browserPassed": 15,
+  "totalPassed": 26,
+  "failed": 0,
+  "axeScans": 22,
+  "preRedesignScreenshots": 7,
+  "redesignedScreenshots": 16,
+  "pageAndConsoleErrors": 0,
+  "failedScreenshotRequests": 0,
+  "economicModulesUnchanged": [
+    "js/data.js",
+    "js/game.js",
+    "js/cpu.js",
+    "js/market.js"
+  ],
+  "url": "http://127.0.0.1:8763"
+}
