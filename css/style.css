@@ -1656,6 +1656,151 @@ summary > span {
     font-size: 15px;
   }
 }
+/* Smartphone-only refinements: wider layouts deliberately keep their cascade. */
+@media (max-width: 600px) {
+  .header-top {
+    padding: 4px 12px 0;
+  }
+  .header-top nav {
+    height: 44px;
+    margin-top: 2px;
+  }
+  .nav-link {
+    padding-inline: 7px;
+  }
+  .hud {
+    padding: 6px 12px 8px;
+  }
+  .hud-metrics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.8fr;
+    gap: 8px;
+  }
+  .hud-metrics span {
+    font-size: 10px;
+  }
+  .hud-metrics strong {
+    font-size: clamp(15px, 4vw, 17px);
+    overflow-wrap: anywhere;
+  }
+  .turn-control {
+    margin-top: 6px;
+    padding-top: 6px;
+    gap: 8px;
+  }
+  .layout {
+    padding: 16px 12px 24px;
+  }
+  .catalog,
+  .compare {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .opportunities .card-link {
+    display: block;
+  }
+  .property-image,
+  .opportunities .property-image {
+    height: auto;
+    aspect-ratio: 2 / 1;
+    min-height: 0;
+  }
+  .card-body,
+  .opportunities .card-body {
+    padding: 12px;
+  }
+  .card h3 {
+    min-height: 0;
+    font-size: 18px;
+  }
+  .card-metrics {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .card-metrics .net {
+    text-align: right;
+  }
+  .category-entries {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .filters {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  input,
+  select {
+    font-size: 16px;
+  }
+  .filters label,
+  .category-name,
+  .risk,
+  .state-badge,
+  .net small {
+    font-size: 11px;
+  }
+  .detail-card {
+    padding: 12px;
+  }
+  .detail-card .property-image.large {
+    height: auto;
+    aspect-ratio: 3 / 2;
+  }
+  .detail-hero {
+    gap: 16px;
+  }
+  .detail-badges,
+  .detail-net,
+  .fact-list > div {
+    flex-wrap: wrap;
+  }
+  .estate-summary,
+  .compare-facts,
+  .growth-summary dl {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .estate-summary {
+    padding: 16px;
+  }
+  .property-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .property-row .property-image {
+    width: 80px;
+  }
+  .compare-card,
+  .final-dialog .compare-card {
+    min-width: 0;
+    padding: 16px;
+  }
+  .compare-label {
+    margin-bottom: 12px;
+  }
+  .compare-worth {
+    margin-bottom: 16px;
+  }
+  .estate-summary dd,
+  .compare-facts dd,
+  .compare-worth,
+  .row-metric > strong,
+  .summary-grid strong {
+    overflow-wrap: anywhere;
+  }
+  dialog {
+    padding: 20px;
+    max-height: calc(100dvh - 24px);
+    overscroll-behavior: contain;
+  }
+  .onboarding-dialog {
+    padding: 0;
+  }
+  .onboarding-card {
+    padding: 20px;
+  }
+  .catalog-section,
+  #catalog-title {
+    scroll-margin-top: 220px;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

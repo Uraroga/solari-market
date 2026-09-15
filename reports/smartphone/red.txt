@@ -1,0 +1,102 @@
+
+Running 3 tests using 1 worker
+
+  ✘  1 tests/browser/smartphone.spec.js:4:3 › smartphone 320 has compact reachable navigation and single-column cards (654ms)
+  ✘  2 tests/browser/smartphone.spec.js:4:3 › smartphone 390 has compact reachable navigation and single-column cards (710ms)
+  ✘  3 tests/browser/smartphone.spec.js:4:3 › smartphone 430 has compact reachable navigation and single-column cards (676ms)
+
+
+  1) tests/browser/smartphone.spec.js:4:3 › smartphone 320 has compact reachable navigation and single-column cards 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 210
+    Received:    234
+
+       6 |     await page.goto('/');
+       7 |     await page.locator('#onboarding-start').click();
+    >  8 |     expect((await page.locator('.site-header').boundingBox()).height).toBeLessThanOrEqual(210);
+         |                                                                       ^
+       9 |     await expect(page.locator('#next-month')).toBeInViewport();
+      10 |     for (const selector of ['#catalog', '#opportunities']) {
+      11 |       const cards = await page.locator(`${selector} .card`).evaluateAll(es => es.map(e => {
+        at /home/sergio/Progetti/solari-market/tests/browser/smartphone.spec.js:8:71
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    reports/test-artifacts/smartphone-smartphone-320--3f886-ion-and-single-column-cards/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: reports/test-artifacts/smartphone-smartphone-320--3f886-ion-and-single-column-cards/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    reports/test-artifacts/smartphone-smartphone-320--3f886-ion-and-single-column-cards/trace.zip
+    Usage:
+
+        npx playwright show-trace reports/test-artifacts/smartphone-smartphone-320--3f886-ion-and-single-column-cards/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/browser/smartphone.spec.js:4:3 › smartphone 390 has compact reachable navigation and single-column cards 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 210
+    Received:    234
+
+       6 |     await page.goto('/');
+       7 |     await page.locator('#onboarding-start').click();
+    >  8 |     expect((await page.locator('.site-header').boundingBox()).height).toBeLessThanOrEqual(210);
+         |                                                                       ^
+       9 |     await expect(page.locator('#next-month')).toBeInViewport();
+      10 |     for (const selector of ['#catalog', '#opportunities']) {
+      11 |       const cards = await page.locator(`${selector} .card`).evaluateAll(es => es.map(e => {
+        at /home/sergio/Progetti/solari-market/tests/browser/smartphone.spec.js:8:71
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    reports/test-artifacts/smartphone-smartphone-390--0f402-ion-and-single-column-cards/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: reports/test-artifacts/smartphone-smartphone-390--0f402-ion-and-single-column-cards/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    reports/test-artifacts/smartphone-smartphone-390--0f402-ion-and-single-column-cards/trace.zip
+    Usage:
+
+        npx playwright show-trace reports/test-artifacts/smartphone-smartphone-390--0f402-ion-and-single-column-cards/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) tests/browser/smartphone.spec.js:4:3 › smartphone 430 has compact reachable navigation and single-column cards 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 210
+    Received:    234
+
+       6 |     await page.goto('/');
+       7 |     await page.locator('#onboarding-start').click();
+    >  8 |     expect((await page.locator('.site-header').boundingBox()).height).toBeLessThanOrEqual(210);
+         |                                                                       ^
+       9 |     await expect(page.locator('#next-month')).toBeInViewport();
+      10 |     for (const selector of ['#catalog', '#opportunities']) {
+      11 |       const cards = await page.locator(`${selector} .card`).evaluateAll(es => es.map(e => {
+        at /home/sergio/Progetti/solari-market/tests/browser/smartphone.spec.js:8:71
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    reports/test-artifacts/smartphone-smartphone-430--5e58c-ion-and-single-column-cards/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: reports/test-artifacts/smartphone-smartphone-430--5e58c-ion-and-single-column-cards/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    reports/test-artifacts/smartphone-smartphone-430--5e58c-ion-and-single-column-cards/trace.zip
+    Usage:
+
+        npx playwright show-trace reports/test-artifacts/smartphone-smartphone-430--5e58c-ion-and-single-column-cards/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    tests/browser/smartphone.spec.js:4:3 › smartphone 320 has compact reachable navigation and single-column cards 
+    tests/browser/smartphone.spec.js:4:3 › smartphone 390 has compact reachable navigation and single-column cards 
+    tests/browser/smartphone.spec.js:4:3 › smartphone 430 has compact reachable navigation and single-column cards 

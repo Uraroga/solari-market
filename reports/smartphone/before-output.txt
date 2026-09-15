@@ -1,0 +1,7 @@
+{
+  "phase": "before",
+  "screenshots": 70,
+  "errors": [],
+  "overflow": [],
+  "comparisons": []
+}

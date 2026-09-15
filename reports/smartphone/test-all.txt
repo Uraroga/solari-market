@@ -1,0 +1,77 @@
+
+> test:all
+> npm test && npm run test:ui
+
+
+> test
+> node --test tests/*.test.js
+
+✔ central purchase cap survives save/reload; invalid buyers and fourth purchase have no side effects (26.739815ms)
+✔ Competitor re-ranks category diversity after each purchase and central cap cannot be bypassed (2.889016ms)
+✔ Competitor strategy changes by game phase without rewarding weak diversification (0.331841ms)
+✔ profitable high-risk property is no longer over-penalized (0.473933ms)
+✔ shared minimum cash reserve blocks player and Competitor purchases atomically (0.488195ms)
+✔ deterministic inflation reaches every property once per month; no rent/cost changes or random calls (2.485726ms)
+✔ current value is shared purchase price, affordability, ranking and profile denominator (1.694616ms)
+✔ sixty full monthly cycles, deterministic growth, stable flows and draw; final state is immutable (14.677359ms)
+✔ legacy migration preserves finances and values, reserves unknown monthly slots without inferring capped logs (1.282155ms)
+✔ malformed modern counters cannot reopen the cap; invalid economy saves are rejected (1.606902ms)
+✔ completed legacy tie is corrected without replaying historical months (0.52045ms)
+✔ whole-Solaro half-increments round upwards without multiplier floating-point loss (0.283718ms)
+✔ Competitor keeps profitable high-risk assets eligible and stops at 0, 1, 2 or 3 affordable purchases (2.33641ms)
+✔ missing direct-call counters fail closed, not open or throwing (0.236408ms)
+✔ reload retains inflation marker and Competitor slots; rejected transactions are atomic (10.498526ms)
+✔ nuova partita inizializza 60 mesi, capitali e catalogo (18.527198ms)
+✔ acquisto giocatore aggiorna liquidità, proprietario e patrimonio (0.63691ms)
+✔ passaggio mese accredita rendite, sottrae costi, aggiorna inflazione e Competitor (2.826009ms)
+✔ Competitor compra un immobile conveniente ma rispetta la riserva minima (3.252813ms)
+✔ salvataggio localStorage e caricamento partita salvata (1.192645ms)
+✔ fine al mese 60 dichiara il vincitore (1.405845ms)
+✔ valutazione Competitor penalizza rischio alto e valorizza diversificazione (0.351529ms)
+✔ indicatori UI derivano dai dati economici e dalla categoria (0.617065ms)
+✔ initial inventory is exactly the preserved pre-revision baseline (2.990936ms)
+✔ runtime economy contains no random market or event implementation and no fixed-price consumers (0.785584ms)
+✔ twenty original property SVG files are distinct and have no external dependencies (3.168722ms)
+✔ opportunities rank only available affordable properties by monthly net yield (20.487859ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 200.859546
+
+> test:ui
+> playwright test
+
+
+Running 25 tests using 1 worker
+
+  ✓   1 tests/browser/accessibility.spec.js:5:3 › responsive keyboard flows and WCAG checks at 1280px (5.8s)
+  ✓   2 tests/browser/accessibility.spec.js:5:3 › responsive keyboard flows and WCAG checks at 390px (5.4s)
+  ✓   3 tests/browser/accessibility.spec.js:5:3 › responsive keyboard flows and WCAG checks at 320px (5.8s)
+  ✓   4 tests/browser/accessibility.spec.js:68:1 › mobile primary touch targets are at least 44px high (638ms)
+  ✓   5 tests/browser/accessibility.spec.js:87:1 › old saves without UI flags remain playable and preserve economy (994ms)
+  ✓   6 tests/browser/accessibility.spec.js:111:1 › storage denial is visible without uncaught errors and the session remains playable (809ms)
+  ✓   7 tests/browser/accessibility.spec.js:137:1 › finished games remain inspectable and accessible on narrow screens (1.5s)
+  ✓   8 tests/browser/accessibility.spec.js:176:1 › all property illustrations load locally and are distinct (482ms)
+  ✓   9 tests/browser/economy.spec.js:3:2 › economy purchase cap and current pricing persist at 1280px (2.1s)
+  ✓  10 tests/browser/economy.spec.js:3:2 › economy purchase cap and current pricing persist at 390px (2.1s)
+  ✓  11 tests/browser/economy.spec.js:48:1 › browser engine: 60 cycles, once-only inflation, no randomness, stable economics, draw reload and legacy migration (825ms)
+  ✓  12 tests/browser/smartphone.spec.js:4:3 › smartphone 320 has compact reachable navigation and single-column cards (690ms)
+  ✓  13 tests/browser/smartphone.spec.js:25:3 › smartphone 320 touch journey keeps content unclipped and dialogs operable (9.5s)
+  ✓  14 tests/browser/smartphone.spec.js:4:3 › smartphone 390 has compact reachable navigation and single-column cards (671ms)
+  ✓  15 tests/browser/smartphone.spec.js:25:3 › smartphone 390 touch journey keeps content unclipped and dialogs operable (9.1s)
+  ✓  16 tests/browser/smartphone.spec.js:4:3 › smartphone 430 has compact reachable navigation and single-column cards (654ms)
+  ✓  17 tests/browser/smartphone.spec.js:25:3 › smartphone 430 touch journey keeps content unclipped and dialogs operable (8.9s)
+  ✓  18 tests/browser/ui.spec.js:14:1 › home is an image-led marketplace with compact HUD, ranked opportunities and category navigation (1.0s)
+  ✓  19 tests/browser/ui.spec.js:60:1 › support project link stays visible in the header and does not interfere with gameplay (1.2s)
+  ✓  20 tests/browser/ui.spec.js:118:1 › onboarding is a keyboard modal, persisted, and new game requires explicit confirmation (1.3s)
+  ✓  21 tests/browser/ui.spec.js:148:1 › all 60 monthly turns finish and final restart also requires confirmation (4.9s)
+  ✓  22 tests/browser/ui.spec.js:173:1 › months show recent news first, group older archive and show deterministic inflation (1.1s)
+  ✓  23 tests/browser/ui.spec.js:210:1 › portfolio compares real totals and growth from initial capital, including reserve guidance (823ms)
+  ✓  24 tests/browser/ui.spec.js:254:1 › estate management uses a five-metric summary and inspectable owned rows (934ms)
+  ✓  25 tests/browser/ui.spec.js:285:1 › detail leads with artwork and economics, purchase announces an exact receipt (1.6s)
+
+  25 passed (1.2m)

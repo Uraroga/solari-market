@@ -1,0 +1,637 @@
+{
+  "phase": "before",
+  "screens": [
+    {
+      "width": 320,
+      "height": 568,
+      "state": "onboarding",
+      "file": "320-onboarding.png",
+      "scrollWidth": 320,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "state": "home",
+      "file": "320-home.png",
+      "scrollWidth": 320,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "state": "catalog",
+      "file": "320-catalog.png",
+      "scrollWidth": 320,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "state": "filtered",
+      "file": "320-filtered.png",
+      "scrollWidth": 320,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "state": "detail",
+      "file": "320-detail.png",
+      "scrollWidth": 320,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "state": "buy",
+      "file": "320-buy.png",
+      "scrollWidth": 320,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "state": "purchase",
+      "file": "320-purchase.png",
+      "scrollWidth": 320,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "state": "owned",
+      "file": "320-owned.png",
+      "scrollWidth": 320,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "state": "portfolio",
+      "file": "320-portfolio.png",
+      "scrollWidth": 320,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "state": "competitor",
+      "file": "320-competitor.png",
+      "scrollWidth": 320,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "state": "archive",
+      "file": "320-archive.png",
+      "scrollWidth": 320,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "state": "reset",
+      "file": "320-reset.png",
+      "scrollWidth": 320,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "state": "final",
+      "file": "320-final.png",
+      "scrollWidth": 320,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "state": "final-action",
+      "file": "320-final-action.png",
+      "scrollWidth": 320,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "onboarding",
+      "file": "390-onboarding.png",
+      "scrollWidth": 390,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "home",
+      "file": "390-home.png",
+      "scrollWidth": 390,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "catalog",
+      "file": "390-catalog.png",
+      "scrollWidth": 390,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "filtered",
+      "file": "390-filtered.png",
+      "scrollWidth": 390,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "detail",
+      "file": "390-detail.png",
+      "scrollWidth": 390,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "buy",
+      "file": "390-buy.png",
+      "scrollWidth": 390,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "purchase",
+      "file": "390-purchase.png",
+      "scrollWidth": 390,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "owned",
+      "file": "390-owned.png",
+      "scrollWidth": 390,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "portfolio",
+      "file": "390-portfolio.png",
+      "scrollWidth": 390,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "competitor",
+      "file": "390-competitor.png",
+      "scrollWidth": 390,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "archive",
+      "file": "390-archive.png",
+      "scrollWidth": 390,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "reset",
+      "file": "390-reset.png",
+      "scrollWidth": 390,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "final",
+      "file": "390-final.png",
+      "scrollWidth": 390,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "final-action",
+      "file": "390-final-action.png",
+      "scrollWidth": 390,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": "onboarding",
+      "file": "430-onboarding.png",
+      "scrollWidth": 430,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": "home",
+      "file": "430-home.png",
+      "scrollWidth": 430,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": "catalog",
+      "file": "430-catalog.png",
+      "scrollWidth": 430,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": "filtered",
+      "file": "430-filtered.png",
+      "scrollWidth": 430,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": "detail",
+      "file": "430-detail.png",
+      "scrollWidth": 430,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": "buy",
+      "file": "430-buy.png",
+      "scrollWidth": 430,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": "purchase",
+      "file": "430-purchase.png",
+      "scrollWidth": 430,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": "owned",
+      "file": "430-owned.png",
+      "scrollWidth": 430,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": "portfolio",
+      "file": "430-portfolio.png",
+      "scrollWidth": 430,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": "competitor",
+      "file": "430-competitor.png",
+      "scrollWidth": 430,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": "archive",
+      "file": "430-archive.png",
+      "scrollWidth": 430,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": "reset",
+      "file": "430-reset.png",
+      "scrollWidth": 430,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": "final",
+      "file": "430-final.png",
+      "scrollWidth": 430,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": "final-action",
+      "file": "430-final-action.png",
+      "scrollWidth": 430,
+      "outside": [],
+      "headerHeight": 234
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "onboarding",
+      "file": "768-onboarding.png",
+      "scrollWidth": 768,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "home",
+      "file": "768-home.png",
+      "scrollWidth": 768,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "catalog",
+      "file": "768-catalog.png",
+      "scrollWidth": 768,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "filtered",
+      "file": "768-filtered.png",
+      "scrollWidth": 768,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "detail",
+      "file": "768-detail.png",
+      "scrollWidth": 768,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "buy",
+      "file": "768-buy.png",
+      "scrollWidth": 768,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "purchase",
+      "file": "768-purchase.png",
+      "scrollWidth": 768,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "owned",
+      "file": "768-owned.png",
+      "scrollWidth": 768,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "portfolio",
+      "file": "768-portfolio.png",
+      "scrollWidth": 768,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "competitor",
+      "file": "768-competitor.png",
+      "scrollWidth": 768,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "archive",
+      "file": "768-archive.png",
+      "scrollWidth": 768,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "reset",
+      "file": "768-reset.png",
+      "scrollWidth": 768,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "final",
+      "file": "768-final.png",
+      "scrollWidth": 768,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "final-action",
+      "file": "768-final-action.png",
+      "scrollWidth": 768,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "state": "onboarding",
+      "file": "1280-onboarding.png",
+      "scrollWidth": 1280,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "state": "home",
+      "file": "1280-home.png",
+      "scrollWidth": 1280,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "state": "catalog",
+      "file": "1280-catalog.png",
+      "scrollWidth": 1280,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "state": "filtered",
+      "file": "1280-filtered.png",
+      "scrollWidth": 1280,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "state": "detail",
+      "file": "1280-detail.png",
+      "scrollWidth": 1280,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "state": "buy",
+      "file": "1280-buy.png",
+      "scrollWidth": 1280,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "state": "purchase",
+      "file": "1280-purchase.png",
+      "scrollWidth": 1280,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "state": "owned",
+      "file": "1280-owned.png",
+      "scrollWidth": 1280,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "state": "portfolio",
+      "file": "1280-portfolio.png",
+      "scrollWidth": 1280,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "state": "competitor",
+      "file": "1280-competitor.png",
+      "scrollWidth": 1280,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "state": "archive",
+      "file": "1280-archive.png",
+      "scrollWidth": 1280,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "state": "reset",
+      "file": "1280-reset.png",
+      "scrollWidth": 1280,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "state": "final",
+      "file": "1280-final.png",
+      "scrollWidth": 1280,
+      "outside": [],
+      "headerHeight": 143
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "state": "final-action",
+      "file": "1280-final-action.png",
+      "scrollWidth": 1280,
+      "outside": [],
+      "headerHeight": 143
+    }
+  ],
+  "errors": [],
+  "comparisons": []
+}

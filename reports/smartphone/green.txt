@@ -1,0 +1,11 @@
+
+Running 6 tests using 1 worker
+
+  ✓  1 tests/browser/smartphone.spec.js:4:3 › smartphone 320 has compact reachable navigation and single-column cards (811ms)
+  ✓  2 tests/browser/smartphone.spec.js:25:3 › smartphone 320 touch journey keeps content unclipped and dialogs operable (9.5s)
+  ✓  3 tests/browser/smartphone.spec.js:4:3 › smartphone 390 has compact reachable navigation and single-column cards (1.3s)
+  ✓  4 tests/browser/smartphone.spec.js:25:3 › smartphone 390 touch journey keeps content unclipped and dialogs operable (9.3s)
+  ✓  5 tests/browser/smartphone.spec.js:4:3 › smartphone 430 has compact reachable navigation and single-column cards (646ms)
+  ✓  6 tests/browser/smartphone.spec.js:25:3 › smartphone 430 touch journey keeps content unclipped and dialogs operable (9.0s)
+
+  6 passed (31.3s)
