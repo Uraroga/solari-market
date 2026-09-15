@@ -1,5 +1,11 @@
 # Solari Market
 
+Solari Market è un gioco gestionale immobiliare per browser.
+
+Sfida il Competitor per 60 mesi: compra immobili, mantieni una riserva di liquidità e cerca di arrivare alla fine con il patrimonio più alto.
+
+I Solari (S) sono una valuta fittizia di gioco. Il progetto non rappresenta investimenti reali e non fornisce consigli finanziari.
+
 Marketplace immobiliare e gioco gestionale locale in HTML/CSS/JavaScript ES modules. Nessun backend, account, API applicativa o asset remoto. I **Solari (S)** sono solo valuta di gioco.
 
 ## Avvio locale
